@@ -1,0 +1,124 @@
+.bg1{
+    background-image: url("images/header.jpg");
+    background-size: cover;
+}
+
+.navbar{
+    font-size: 0.8em;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    letter-spacing: -2px;
+}
+
+.orange {
+    color: #fda118;
+}
+
+.josh{
+    color: white;
+}
+
+.tag{
+    display: flex;
+    justify-content: flex-end;
+    color: #ffff;
+    text-align:right;
+    padding-bottom:10%;
+    margin-right:15%;
+    margin-top: 140px;
+}
+
+.tag h1 {
+    width: 341px;
+    font-size: 7em;
+    letter-spacing: -10px;
+    font-weight:800;
+    line-height:  75%; 
+    font-family: 'Raleway', sans-serif;
+}
+
+.aboutbg {
+    background-color: #E8E7EA;
+    padding: 2%;
+
+}
+
+.aboutbg h2{
+    font-size: 2.4em;
+    font-weight:800;
+    font-family: 'Raleway', sans-serif;
+}
+
+.particle{
+    text-align: right;
+    margin-right:150px;
+    font-size: 1.5em;
+    font-style: italic;
+    font-weight: 400;
+    padding-bottom: 40px;
+}
+
+.about-text{
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 1.8em;
+    line-height: 2em;
+}
+
+.blocker {
+    width: 133px;
+    height: 10px;
+    background-color: #AC83BA ;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.articlesbg {
+    background-color: #fdfdfe;
+}
+
+.article-title h4{
+    font-size: 1.4em;
+    font-family: 'Raleway', sans-serif;
+    font-style: bold;
+    font-weight: 800;
+    color: #0000;
+    padding-top: 20px;
+    margin-bottom:0px;
+}
+
+.articlesbg h3{
+    font-weight:bold;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+.date{
+    font-style: italic;
+    font-size: 0.8em;
+    text-align: left;
+}
+
+.readmore{
+    display: block;
+    color: #848181;
+    font-size: 0.9em;
+    margin-bottom: 30px;
+}
+
+
+footer{
+    background-image: url(images/footer.jpg) ;
+    background-size: cover;
+    background-position: center center;
+}
+
+footer p{
+    color: white;
+    font-weight: bold;
+    padding:5%;
+}
