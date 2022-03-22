@@ -9,6 +9,19 @@
         background-position: center center;
     }
 
+    @media only screen and (max-width: 768px) {
+        .navbar-collapse {
+            -ms-flex-preferred-size: 100%;
+            flex-basis: 100%;
+            -ms-flex-positive: 1;
+            flex-grow: 1;
+            -ms-flex-align: center;
+            align-items: center;
+            display: flex;
+            justify-content: flex-end;
+        }
+    }
+    
     .tag{
         display: flex;
         justify-content: center;
