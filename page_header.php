@@ -64,7 +64,7 @@
         </div>
       </nav>
 <div class="smallpage-tag">
-      <h1 class="smallpage-title">"><?php the_field('projectsheadertitle'); ?></h1>
+      <h1 class="smallpage-title"><?php the_field('projectsheadertitle'); ?></h1>
     </div> <!--tag-->
     </div> <!-- container -->
     <?php wp_head(); ?> <!-- very important that this is added--> 
