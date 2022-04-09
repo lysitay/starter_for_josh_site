@@ -48,6 +48,15 @@ Version: 1
     font-family: 'Raleway', sans-serif;
 }
 
+
+.small_herobg {
+    width: 100%;
+background: url("images/small_header_bg.jpg ") no-repeat center center;
+background-size: cover;/*make the background image cover the whole div proportionally*/
+height: 40vh; /*Viewport Height (vh) — This unit is based on the height of the viewport. A value of 1vh is equal to 1% of the viewport height. */
+
+}
+
 .aboutbg {
     background-color: #E8E7EA;
     padding: 2%;
