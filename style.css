@@ -51,7 +51,7 @@ Version: 1
 
 .small_herobg {
     width: 100%;
-background: url("images/small_header_bg.jpg ") no-repeat center center;
+background: url("images/small_header_bg.jpg") no-repeat center center;
 background-size: cover;/*make the background image cover the whole div proportionally*/
 height: 40vh; /*Viewport Height (vh) — This unit is based on the height of the viewport. A value of 1vh is equal to 1% of the viewport height. */
 
@@ -128,20 +128,6 @@ height: 40vh; /*Viewport Height (vh) — This unit is based on the height of the
     margin-bottom: 30px;
 }
 
-
-.footer{
-    background-image: url(images/footer.jpg) ;
-    background-size: cover;
-    background-position: center center;
-}
-
-.footer p{
-    color: white;
-    font-weight: bold;
-    padding:5%;
-}
-
-
 .smallpage-bg {
     width: 100%;
 background: url("images/page_header_bg.jpg") no-repeat center center;
@@ -163,3 +149,17 @@ img.attachment-thumbnail.size-thumbnail.wp-post-image {
     margin-right: 10px;
     padding: 10px;
 }
+
+.footer{
+    background-image: url(images/footer.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.footer p{
+    color: white;
+    font-weight: bold;
+    padding:5%;
+}
+
+
