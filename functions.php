@@ -26,3 +26,31 @@ register_nav_menus( array(
 <?php
 add_theme_support('post-thumbnails'); 
 ?>
+<?php
+function footer_left() {
+
+  register_sidebar( array(
+    'name'          => 'footer-left',
+    'id'            => 'footer-l',
+    'before_widget' => '<div>',
+    'after_widget'  => '</div>',
+  
+  ) );
+
+}
+add_action( 'widgets_init', 'footer_left' );
+?>
+<?php
+function footer_right() {
+
+  register_sidebar( array(
+    'name'          => 'footer-right',
+    'id'            => 'footer-r',
+    'before_widget' => '<div>',
+    'after_widget'  => '</div>',
+  
+  ) );
+
+}
+add_action( 'widgets_init', 'footer_right' );
+?>
